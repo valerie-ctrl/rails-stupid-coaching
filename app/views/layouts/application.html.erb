@@ -9,8 +9,10 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-  <h1>Stupid Coaching</h1>
   <body>
-    <%= yield %>
+    <div class="container w-50 m-auto text-center">
+      <h1>Stupid Coaching</h1>
+      <%= yield %>
+    </div>
   </body>
 </html>
